@@ -47,6 +47,7 @@ status-website:
   cname: status.buape.com
   logoUrl: https://cdn.buape.com/buape_circle.png
   name: Buape Status
+  theme: night
   introTitle: Welcome to the Buape Status page.
   introMessage: This page combines the status of all of Buape Studio's products
     into one easy-to-check page!
