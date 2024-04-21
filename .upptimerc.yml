@@ -36,9 +36,7 @@ sites:
   - name: Buape Files
     url: https://files.buape.com
   - name: Buape CDN
-    url: https://cdn.buape.com
-    assignees:
-      - Codeize
+    url: https://cdn-raw.buape.com/buape_circle.png
   - name: "Server: Buape1"
     url: host.buape.com
     port: 22
