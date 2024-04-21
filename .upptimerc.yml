@@ -10,6 +10,7 @@ sites:
       - tm21cy
       - Codeize
     expectedStatusCodes:
+      - 200
       - 302
   - name: "Kiai: Website"
     url: https://www.kiaibot.com
