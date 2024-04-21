@@ -1,36 +1,68 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: buape
+repo: status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
+  - name: Kiai: Bot
+    url: http://host.buape.com:6677 #Grafana monitor, redirects to kiaibot.com
+    assignees:
+      - net-tech
+      - thewilloftheshadow
+      - tm21cy
+      - Codeize
+    expectedStatusCodes:
+      - 302
+  - name: Kiai: Website
+    url: https://www.kiaibot.com
+    assignees:
+      - thewilloftheshadow
+      - Codeize
+  - name: Kiai: API
+    url: https://api.kiaibot.com
+    assignees:
+      - net-tech
+      - thewilloftheshadow
+      - tm21cy
+      - Codeize
+  - name: Kiai: Docs
+    url: https://docs.kiaibot.com
+    assignees:
+      - thewilloftheshadow
+      - Codeize
+
+  - name: Unleash
+    url: https://unleash.kiaibot.com
+
+  - name: go.buape.com (Link Shortener)
+    url: https://go.buape.com
+
+  - name: Buape Files
+    url: https://files.buape.com
+
+  - name: Buape CDN
+    url: https://cdn.buape.com
+    assignees:
+      - Codeize
+
+  - name: Server: Buape1
+    url: host.buape.com
+    port: 22
     check: "tcp-ping"
-    ipv6: true
+    
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.buape.com
+  logoUrl: https://cdn.buape.com/buape_circle.png
+  name: Buape Status
+  introTitle: "Welcome to the Buape Status page."
+  introMessage: "This page combines the status of all of Buape Studio's products into one easy-to-check page!"
   navbar:
     - title: Status
       href: /
     - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+      href: https://github.com/buape
+    - title: Discord
+      href: https://go.buape.com
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+assignees:
+  - thewilloftheshadow
+  - tm21cy
