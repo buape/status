@@ -1,9 +1,9 @@
+---
 owner: buape
 repo: status
-
 sites:
-  - name: Kiai: Bot
-    url: http://host.buape.com:6677 #Grafana monitor, redirects to kiaibot.com
+  - name: "Kiai: Bot"
+    url: http://host.buape.com:6677
     assignees:
       - net-tech
       - thewilloftheshadow
@@ -11,50 +11,44 @@ sites:
       - Codeize
     expectedStatusCodes:
       - 302
-  - name: Kiai: Website
+  - name: "Kiai: Website"
     url: https://www.kiaibot.com
     assignees:
       - thewilloftheshadow
       - Codeize
-  - name: Kiai: API
+  - name: "Kiai: API"
     url: https://api.kiaibot.com
     assignees:
       - net-tech
       - thewilloftheshadow
       - tm21cy
       - Codeize
-  - name: Kiai: Docs
+  - name: "Kiai: Docs"
     url: https://docs.kiaibot.com
     assignees:
       - thewilloftheshadow
       - Codeize
-
   - name: Unleash
     url: https://unleash.kiaibot.com
-
   - name: go.buape.com (Link Shortener)
     url: https://go.buape.com
-
   - name: Buape Files
     url: https://files.buape.com
-
   - name: Buape CDN
     url: https://cdn.buape.com
     assignees:
       - Codeize
-
-  - name: Server: Buape1
+  - name: "Server: Buape1"
     url: host.buape.com
     port: 22
-    check: "tcp-ping"
-    
-
+    check: tcp-ping
 status-website:
   cname: status.buape.com
   logoUrl: https://cdn.buape.com/buape_circle.png
   name: Buape Status
-  introTitle: "Welcome to the Buape Status page."
-  introMessage: "This page combines the status of all of Buape Studio's products into one easy-to-check page!"
+  introTitle: Welcome to the Buape Status page.
+  introMessage: This page combines the status of all of Buape Studio's products
+    into one easy-to-check page!
   navbar:
     - title: Status
       href: /
@@ -62,7 +56,6 @@ status-website:
       href: https://github.com/buape
     - title: Discord
       href: https://go.buape.com
-
 assignees:
   - thewilloftheshadow
   - tm21cy
