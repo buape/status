@@ -94,18 +94,20 @@
     "url": "https://go.buape.com",
     "icon": "https://icons.duckduckgo.com/ip3/go.buape.com.ico",
     "slug": "go-buape-com-link-shortener",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 215,
-    "timeDay": 133,
-    "timeWeek": 215,
-    "timeMonth": 215,
-    "timeYear": 215,
-    "dailyMinutesDown": {}
+    "time": 201,
+    "timeDay": 103,
+    "timeWeek": 201,
+    "timeMonth": 201,
+    "timeYear": 201,
+    "dailyMinutesDown": {
+      "2024-04-27": 0
+    }
   },
   {
     "name": "Buape Files",
