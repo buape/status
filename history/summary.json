@@ -94,19 +94,19 @@
     "url": "https://go.buape.com",
     "icon": "https://icons.duckduckgo.com/ip3/go.buape.com.ico",
     "slug": "go-buape-com-link-shortener",
-    "status": "down",
-    "uptime": "99.88%",
-    "uptimeDay": "99.33%",
-    "uptimeWeek": "99.88%",
-    "uptimeMonth": "99.88%",
-    "uptimeYear": "99.88%",
-    "time": 180,
+    "status": "up",
+    "uptime": "99.65%",
+    "uptimeDay": "98.06%",
+    "uptimeWeek": "99.65%",
+    "uptimeMonth": "99.65%",
+    "uptimeYear": "99.65%",
+    "time": 173,
     "timeDay": 88,
-    "timeWeek": 180,
-    "timeMonth": 180,
-    "timeYear": 180,
+    "timeWeek": 173,
+    "timeMonth": 173,
+    "timeYear": 173,
     "dailyMinutesDown": {
-      "2024-04-27": 10
+      "2024-04-27": 28
     }
   },
   {
