@@ -4,9 +4,9 @@
     "url": "http://host.buape.com:6677",
     "icon": "https://icons.duckduckgo.com/ip3/host.buape.com.ico",
     "slug": "kiai-bot",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -15,7 +15,9 @@
     "timeWeek": 351,
     "timeMonth": 403,
     "timeYear": 403,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-05-18": 0
+    }
   },
   {
     "name": "Kiai: Website",
@@ -40,18 +42,20 @@
     "url": "https://api.kiaibot.com",
     "icon": "https://icons.duckduckgo.com/ip3/api.kiaibot.com.ico",
     "slug": "kiai-api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 170,
-    "timeDay": 123,
-    "timeWeek": 149,
+    "timeDay": 141,
+    "timeWeek": 150,
     "timeMonth": 170,
     "timeYear": 170,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-05-18": 0
+    }
   },
   {
     "name": "Kiai: Docs",
