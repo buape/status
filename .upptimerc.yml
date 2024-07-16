@@ -13,24 +13,24 @@ sites:
       - 200
       - 302
   - name: "Kiai: Website"
-    url: https://www.kiaibot.com
+    url: https://www.kiai.app
     assignees:
       - thewilloftheshadow
       - Codeize
   - name: "Kiai: API"
-    url: https://api.kiaibot.com
+    url: https://api.kiai.app
     assignees:
       - net-tech
       - thewilloftheshadow
       - tm21cy
       - Codeize
   - name: "Kiai: Docs"
-    url: https://docs.kiaibot.com
+    url: https://docs.kiai.app
     assignees:
       - thewilloftheshadow
       - Codeize
   - name: Unleash
-    url: https://unleash.kiaibot.com
+    url: https://unleash.kiai.app
   - name: go.buape.com (Link Shortener)
     url: https://go.buape.com
   - name: Buape Files
